@@ -1,0 +1,14 @@
+{
+  "providers": [
+    {"id":"local","label":"Local model","quality":2,"privacy":5,"latency":5,"marginal_cost":0,"fixed_monthly_cost":0},
+    {"id":"codex","label":"Codex subscription","quality":5,"privacy":3,"latency":4,"marginal_cost":0,"fixed_monthly_cost":100},
+    {"id":"claude","label":"Claude subscription","quality":5,"privacy":3,"latency":4,"marginal_cost":0,"fixed_monthly_cost":20},
+    {"id":"gemini","label":"Gemini subscription","quality":4,"privacy":3,"latency":4,"marginal_cost":0,"fixed_monthly_cost":20}
+  ],
+  "policy": {
+    "confidential_min_privacy": 4,
+    "critical_min_quality": 4,
+    "high_risk_min_quality": 4,
+    "prefer_sunk_cost_subscriptions": true
+  }
+}

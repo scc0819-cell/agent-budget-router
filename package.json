@@ -1,0 +1,13 @@
+{
+  "name": "agent-budget-router",
+  "version": "0.1.0",
+  "description": "Local-first task routing for teams using multiple AI subscriptions and models.",
+  "type": "module",
+  "bin": { "abr": "./src/cli.mjs" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/cli.mjs --task \"review a production deployment plan\" --privacy internal --quality critical --risk high"
+  },
+  "keywords": ["ai", "agents", "llm", "routing", "cost", "claude", "codex", "gemini", "local-ai"],
+  "license": "MIT"
+}
