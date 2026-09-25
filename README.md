@@ -1,5 +1,7 @@
 # Agent Budget Router
 
+[![CI](https://github.com/scc0819-cell/agent-budget-router/actions/workflows/ci.yml/badge.svg)](https://github.com/scc0819-cell/agent-budget-router/actions/workflows/ci.yml)
+
 **Route AI work to the right model before you burn more money.**
 
 Agent Budget Router (ABR) is a local-first, deterministic routing layer for people and teams using multiple AI subscriptions, APIs, and local models.
@@ -28,7 +30,7 @@ ABR helps turn that stack into a deliberate portfolio instead of a pile of subsc
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/agent-budget-router.git
+git clone https://github.com/scc0819-cell/agent-budget-router.git
 cd agent-budget-router
 npm test
 npm run demo
