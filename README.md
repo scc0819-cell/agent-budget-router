@@ -4,6 +4,12 @@
 
 **Route AI work to the right model before you burn more money.**
 
+> **Looking for the broader product?** Agent Budget Router is the free/open-source entry point to **YJS AI Labs — AI Stack Control Plane**, a planned layer for cross-AI handoff, quota-aware routing, shared context and subscription ROI.
+>
+> **Store:** https://scc0819-cell.github.io/yjs-ai-labs/?utm_source=github&utm_medium=repo&utm_campaign=abr-readme  
+> **Pro beta:** https://scc0819-cell.github.io/yjs-ai-labs/checkout.html?offer=pro&utm_source=github&utm_medium=repo&utm_campaign=abr-readme  
+> **Setup / optimization:** https://scc0819-cell.github.io/yjs-ai-labs/checkout.html?offer=setup&utm_source=github&utm_medium=repo&utm_campaign=abr-readme
+
 Agent Budget Router (ABR) is a local-first, deterministic routing layer for people and teams using multiple AI subscriptions, APIs, and local models.
 
 Instead of sending every task to the most expensive model, ABR scores the task against privacy, quality, risk, latency, and marginal cost.
@@ -59,9 +65,26 @@ ABR does **not** send prompts to any AI provider in the MVP. It only decides whe
 4. Team policies and audit log
 5. Web dashboard
 
-## Commercial direction
+## Where this is going
 
-The open-source core will remain useful on its own. A separate Pro pack is planned for advanced policies, dashboards, team presets, deployment recipes, and commercial support.
+The open-source router stays useful on its own. The broader product thesis is **AI Stack Control Plane**:
+
+- coordinate GPT / Codex, Claude, Gemini and local models;
+- preserve context across handoffs;
+- load only the MCP tools and skills a task needs;
+- use quota and paid subscription capacity deliberately;
+- measure whether the AI stack is actually paying back.
+
+These capabilities are in validation, not presented as finished paid software. If this is the problem you have, join the structured beta test:
+
+**Pro beta:** https://scc0819-cell.github.io/yjs-ai-labs/checkout.html?offer=pro&utm_source=github&utm_medium=repo&utm_campaign=abr-readme
+
+### Use-case research
+
+- Multi-AI subscription ROI: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/multi-ai-subscription-roi.html?utm_source=github&utm_medium=repo&utm_campaign=abr-usecase
+- Claude + Codex + Gemini handoff: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/claude-codex-gemini-handoff.html?utm_source=github&utm_medium=repo&utm_campaign=abr-usecase
+- MCP context bloat: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/mcp-context-bloat.html?utm_source=github&utm_medium=repo&utm_campaign=abr-usecase
+- Local + cloud routing: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/local-cloud-ai-routing.html?utm_source=github&utm_medium=repo&utm_campaign=abr-usecase
 
 ## Contributing
 
