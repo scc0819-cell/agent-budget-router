@@ -6,13 +6,14 @@
 
 > **Looking for the broader product?** Agent Budget Router is the free/open-source entry point to **YJS AI Labs — AI Stack Control Plane**, a planned layer for cross-AI handoff, quota-aware routing, shared context and subscription ROI.
 >
-> **Store:** https://scc0819-cell.github.io/yjs-ai-labs/?utm_source=github&utm_medium=repo&utm_campaign=abr-readme  
-> **Pro beta:** https://scc0819-cell.github.io/yjs-ai-labs/checkout.html?offer=pro&utm_source=github&utm_medium=repo&utm_campaign=abr-readme  
-> **Setup / optimization:** https://scc0819-cell.github.io/yjs-ai-labs/checkout.html?offer=setup&utm_source=github&utm_medium=repo&utm_campaign=abr-readme
+> - **Store:** https://scc0819-cell.github.io/yjs-ai-labs/?utm_source=github&utm_medium=repo&utm_campaign=abr-launch
+> - **Interactive demo:** https://scc0819-cell.github.io/yjs-ai-labs/demo.html?utm_source=github&utm_medium=repo&utm_campaign=abr-launch
+> - **Pro beta:** https://scc0819-cell.github.io/yjs-ai-labs/checkout.html?offer=pro&utm_source=github&utm_medium=repo&utm_campaign=abr-launch
+> - **Setup / optimization:** https://scc0819-cell.github.io/yjs-ai-labs/checkout.html?offer=setup&utm_source=github&utm_medium=repo&utm_campaign=abr-launch
 
 Agent Budget Router (ABR) is a local-first, deterministic routing layer for people and teams using multiple AI subscriptions, APIs, and local models.
 
-Instead of sending every task to the most expensive model, ABR scores the task against privacy, quality, risk, latency, and marginal cost.
+ABR filters providers using task privacy, required quality and risk, then ranks eligible providers using their quality, privacy, latency score and marginal cost.
 
 ## Why
 
@@ -29,7 +30,7 @@ ABR helps turn that stack into a deliberate portfolio instead of a pile of subsc
 - Rule-based provider routing
 - Privacy-aware routing gates
 - Quality and risk thresholds
-- Preference for already-paid subscription capacity
+- Fixed scoring bonus for zero-marginal-cost subscriptions; no remaining-quota tracking
 - Zero external runtime dependencies
 - GitHub Actions CI
 
@@ -77,14 +78,14 @@ The open-source router stays useful on its own. The broader product thesis is **
 
 These capabilities are in validation, not presented as finished paid software. If this is the problem you have, join the structured beta test:
 
-**Pro beta:** https://scc0819-cell.github.io/yjs-ai-labs/checkout.html?offer=pro&utm_source=github&utm_medium=repo&utm_campaign=abr-readme
+**Pro beta:** https://scc0819-cell.github.io/yjs-ai-labs/checkout.html?offer=pro&utm_source=github&utm_medium=repo&utm_campaign=abr-launch
 
 ### Use-case research
 
-- Multi-AI subscription ROI: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/multi-ai-subscription-roi.html?utm_source=github&utm_medium=repo&utm_campaign=abr-usecase
-- Claude + Codex + Gemini handoff: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/claude-codex-gemini-handoff.html?utm_source=github&utm_medium=repo&utm_campaign=abr-usecase
-- MCP context bloat: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/mcp-context-bloat.html?utm_source=github&utm_medium=repo&utm_campaign=abr-usecase
-- Local + cloud routing: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/local-cloud-ai-routing.html?utm_source=github&utm_medium=repo&utm_campaign=abr-usecase
+- Multi-AI subscription ROI: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/multi-ai-subscription-roi.html?utm_source=github&utm_medium=repo&utm_campaign=use-cases
+- Claude + Codex + Gemini handoff: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/claude-codex-gemini-handoff.html?utm_source=github&utm_medium=repo&utm_campaign=use-cases
+- MCP context bloat: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/mcp-context-bloat.html?utm_source=github&utm_medium=repo&utm_campaign=use-cases
+- Local + cloud routing: https://scc0819-cell.github.io/yjs-ai-labs/use-cases/local-cloud-ai-routing.html?utm_source=github&utm_medium=repo&utm_campaign=use-cases
 
 ## Contributing
 
